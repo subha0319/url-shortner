@@ -14,7 +14,8 @@ url-shortener/
 │   ├── models.py         # URL storage and management with thread-safe operations
 │   ├── utils.py          # Utility functions for URL validation and short code generation
 ├── tests/
-│   └── test_basic.py     # Basic tests validating core API endpoints
+│   ├── test_basic.py     # Basic tests validating core API endpoints
+|   └── __init__.py       # Empty initializer for the package
 ├── .gitignore            # Ignored files and folders
 ├── requirements.txt      # Python package dependencies
 ```
